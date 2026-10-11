@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --naija-green: #008751;
+  --naija-dark: #111111;
+  --naija-bg: #F5F7F6;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--naija-bg);
+  color: var(--naija-dark);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes flagShimmer {
+  0% {
+    transform: translateX(-150%) skewX(-20deg);
+  }
+  50% {
+    transform: translateX(150%) skewX(-20deg);
+  }
+  100% {
+    transform: translateX(300%) skewX(-20deg);
+  }
+}
+
+.animate-flag-shimmer {
+  animation: flagShimmer 5s ease-in-out infinite;
+}
+
+@keyframes waveFloat {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-4px) scale(1.005);
+  }
+}
+
+.animate-flag-float {
+  animation: waveFloat 6s ease-in-out infinite;
+}
+

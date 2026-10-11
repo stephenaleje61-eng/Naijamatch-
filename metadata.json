@@ -1,0 +1,6 @@
+{
+  "name": "NaijaMatch - Nigerian Dating Platform",
+  "description": "Find Love. Find Your Person. NaijaMatch is Nigeria's trusted dating platform connecting genuine singles across all 36 states and FCT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

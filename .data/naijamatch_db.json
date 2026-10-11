@@ -1,0 +1,652 @@
+{
+  "users": [
+    {
+      "id": "admin_396689e6-eb1f-41fc-b102-ddc41ed7caf2",
+      "email": "stephenaleje61@gmail.com",
+      "passwordHash": "$2b$10$DKsKBtW986AI/SCDvBtDCuraVoFA6pxhge8mf/r6fxuOfRnV2wIqy",
+      "isEmailVerified": true,
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2026-10-11T11:55:58.584Z",
+      "updatedAt": "2026-10-11T11:55:58.584Z"
+    },
+    {
+      "id": "user_9a8953c3-2852-47ff-a00c-08e9a62fe2a1",
+      "email": "chioma.eze@naijamatch.demo",
+      "passwordHash": "$2b$10$UEeU0xaQaC0H/pGlcPMfaeEDH7gMjjGJrrHef/cSTsTyVls5w0FHq",
+      "isEmailVerified": true,
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "id": "user_3d29876f-3d8a-42ab-b07e-0ab1b67f06ca",
+      "email": "tunde.adebayo@naijamatch.demo",
+      "passwordHash": "$2b$10$UEeU0xaQaC0H/pGlcPMfaeEDH7gMjjGJrrHef/cSTsTyVls5w0FHq",
+      "isEmailVerified": true,
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "id": "user_1b816cd9-2b4c-4279-897a-be74c3788ea6",
+      "email": "amaka.nwosu@naijamatch.demo",
+      "passwordHash": "$2b$10$UEeU0xaQaC0H/pGlcPMfaeEDH7gMjjGJrrHef/cSTsTyVls5w0FHq",
+      "isEmailVerified": true,
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "id": "user_fe96288e-0be8-4014-a45b-43e244b7778a",
+      "email": "emeka.okonkwo@naijamatch.demo",
+      "passwordHash": "$2b$10$UEeU0xaQaC0H/pGlcPMfaeEDH7gMjjGJrrHef/cSTsTyVls5w0FHq",
+      "isEmailVerified": true,
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "id": "user_aad1d21b-b4bf-4279-a2c3-44b129680bab",
+      "email": "zainab.danladi@naijamatch.demo",
+      "passwordHash": "$2b$10$UEeU0xaQaC0H/pGlcPMfaeEDH7gMjjGJrrHef/cSTsTyVls5w0FHq",
+      "isEmailVerified": true,
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "id": "user_4c2b8252-64b6-45ac-956a-7da78dc11744",
+      "email": "femi.alabi@naijamatch.demo",
+      "passwordHash": "$2b$10$UEeU0xaQaC0H/pGlcPMfaeEDH7gMjjGJrrHef/cSTsTyVls5w0FHq",
+      "isEmailVerified": true,
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "id": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "email": "test.user.1791719758675@example.com",
+      "passwordHash": "$2b$10$B/i/sIWxBcUeXeALJd9JnOhTke4f6ul01ggt62g1nVd1fXw1YqrL2",
+      "isEmailVerified": true,
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-10-11T11:55:58.764Z",
+      "updatedAt": "2026-10-11T11:55:58.854Z"
+    }
+  ],
+  "profiles": [
+    {
+      "userId": "admin_396689e6-eb1f-41fc-b102-ddc41ed7caf2",
+      "displayName": "Stephen A. (Admin)",
+      "dateOfBirth": "1995-05-15",
+      "age": 31,
+      "gender": "Man",
+      "datingPreference": "Women",
+      "relationshipIntention": "Serious Relationship",
+      "state": "Lagos",
+      "city": "Victoria Island",
+      "bio": "Platform Administrator at NaijaMatch. Building trust and authentic love across Nigeria.",
+      "photos": [
+        {
+          "id": "p_admin_1",
+          "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+          "isPrimary": true,
+          "order": 0
+        }
+      ],
+      "interests": [
+        "Tech",
+        "Afrobeats",
+        "Travel",
+        "Investing",
+        "Culinary Arts"
+      ],
+      "isIdentityVerified": true,
+      "verificationStatus": "verified",
+      "onlineStatus": true,
+      "lastActiveAt": "2026-10-11T11:55:58.584Z",
+      "showOnlineStatus": true,
+      "showLocation": true,
+      "createdAt": "2026-10-11T11:55:58.584Z",
+      "updatedAt": "2026-10-11T11:55:58.584Z"
+    },
+    {
+      "userId": "user_9a8953c3-2852-47ff-a00c-08e9a62fe2a1",
+      "displayName": "Chioma Eze",
+      "dateOfBirth": "1998-04-12",
+      "age": 28,
+      "gender": "Woman",
+      "datingPreference": "Men",
+      "relationshipIntention": "Serious Relationship",
+      "state": "Lagos",
+      "city": "Lekki Phase 1",
+      "bio": "Chartered Accountant & culinary enthusiast. Looking for an ambitious, God-fearing partner with a great sense of humor. Let’s talk about books, business, and good food.",
+      "photos": [
+        {
+          "id": "p_user_9a8953c3-2852-47ff-a00c-08e9a62fe2a1_0",
+          "url": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=600&q=80",
+          "isPrimary": true,
+          "order": 0
+        },
+        {
+          "id": "p_user_9a8953c3-2852-47ff-a00c-08e9a62fe2a1_1",
+          "url": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80",
+          "isPrimary": false,
+          "order": 1
+        }
+      ],
+      "interests": [
+        "Cooking",
+        "Travel",
+        "Reading",
+        "Jazz",
+        "Fitness"
+      ],
+      "isIdentityVerified": true,
+      "verificationStatus": "verified",
+      "onlineStatus": true,
+      "lastActiveAt": "2026-10-11T11:53:31.375Z",
+      "showOnlineStatus": true,
+      "showLocation": true,
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "userId": "user_3d29876f-3d8a-42ab-b07e-0ab1b67f06ca",
+      "displayName": "Tunde Adebayo",
+      "dateOfBirth": "1994-09-20",
+      "age": 32,
+      "gender": "Man",
+      "datingPreference": "Women",
+      "relationshipIntention": "Serious Relationship",
+      "state": "FCT - Abuja",
+      "city": "Maitama",
+      "bio": "Architect & real estate developer based in Abuja. Love tennis on weekends and discovering cozy rooftop spots. Seeking genuine connection leading to marriage.",
+      "photos": [
+        {
+          "id": "p_user_3d29876f-3d8a-42ab-b07e-0ab1b67f06ca_0",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+          "isPrimary": true,
+          "order": 0
+        },
+        {
+          "id": "p_user_3d29876f-3d8a-42ab-b07e-0ab1b67f06ca_1",
+          "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80",
+          "isPrimary": false,
+          "order": 1
+        }
+      ],
+      "interests": [
+        "Architecture",
+        "Tennis",
+        "Real Estate",
+        "Photography",
+        "Afrobeats"
+      ],
+      "isIdentityVerified": true,
+      "verificationStatus": "verified",
+      "onlineStatus": true,
+      "lastActiveAt": "2026-10-11T11:06:08.553Z",
+      "showOnlineStatus": true,
+      "showLocation": true,
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "userId": "user_1b816cd9-2b4c-4279-897a-be74c3788ea6",
+      "displayName": "Amaka Nwosu",
+      "dateOfBirth": "1999-11-05",
+      "age": 27,
+      "gender": "Woman",
+      "datingPreference": "Men",
+      "relationshipIntention": "Casual Dating",
+      "state": "Rivers",
+      "city": "Port Harcourt",
+      "bio": "Petroleum Geologist by day, content creator by weekend. Life is too short for boring conversations. Let’s grab shawarma and talk about our wildest travel dreams.",
+      "photos": [
+        {
+          "id": "p_user_1b816cd9-2b4c-4279-897a-be74c3788ea6_0",
+          "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+          "isPrimary": true,
+          "order": 0
+        }
+      ],
+      "interests": [
+        "Beach",
+        "Photography",
+        "Gaming",
+        "Tech",
+        "Music"
+      ],
+      "isIdentityVerified": true,
+      "verificationStatus": "verified",
+      "onlineStatus": false,
+      "lastActiveAt": "2026-10-11T11:49:14.927Z",
+      "showOnlineStatus": true,
+      "showLocation": true,
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "userId": "user_fe96288e-0be8-4014-a45b-43e244b7778a",
+      "displayName": "Emeka Okonkwo",
+      "dateOfBirth": "1996-02-18",
+      "age": 30,
+      "gender": "Man",
+      "datingPreference": "Women",
+      "relationshipIntention": "Serious Relationship",
+      "state": "Enugu",
+      "city": "Independence Layout",
+      "bio": "Fintech software engineer. Big fan of Nollywood cinema, outdoor hikes, and good native soup. Looking for someone grounded, kind-hearted, and forward-thinking.",
+      "photos": [
+        {
+          "id": "p_user_fe96288e-0be8-4014-a45b-43e244b7778a_0",
+          "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80",
+          "isPrimary": true,
+          "order": 0
+        }
+      ],
+      "interests": [
+        "Software Engineering",
+        "Hiking",
+        "Cooking",
+        "Movies",
+        "Crypto"
+      ],
+      "isIdentityVerified": true,
+      "verificationStatus": "verified",
+      "onlineStatus": true,
+      "lastActiveAt": "2026-10-11T11:17:34.308Z",
+      "showOnlineStatus": true,
+      "showLocation": true,
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "userId": "user_aad1d21b-b4bf-4279-a2c3-44b129680bab",
+      "displayName": "Zainab Danladi",
+      "dateOfBirth": "1997-07-30",
+      "age": 29,
+      "gender": "Woman",
+      "datingPreference": "Men",
+      "relationshipIntention": "Serious Relationship",
+      "state": "Kaduna",
+      "city": "Kaduna North",
+      "bio": "Public health researcher & passionate painter. Family-oriented and peaceful soul. Searching for a respectful gentleman who values deep conversation.",
+      "photos": [
+        {
+          "id": "p_user_aad1d21b-b4bf-4279-a2c3-44b129680bab_0",
+          "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+          "isPrimary": true,
+          "order": 0
+        }
+      ],
+      "interests": [
+        "Painting",
+        "Health & Wellness",
+        "Poetry",
+        "Travel",
+        "Gardening"
+      ],
+      "isIdentityVerified": true,
+      "verificationStatus": "verified",
+      "onlineStatus": false,
+      "lastActiveAt": "2026-10-11T11:15:51.081Z",
+      "showOnlineStatus": true,
+      "showLocation": true,
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "userId": "user_4c2b8252-64b6-45ac-956a-7da78dc11744",
+      "displayName": "Femi Alabi",
+      "dateOfBirth": "1993-12-08",
+      "age": 33,
+      "gender": "Man",
+      "datingPreference": "Women",
+      "relationshipIntention": "Friendship",
+      "state": "Oyo",
+      "city": "Ibadan (Bodija)",
+      "bio": "Creative director & digital marketing strategist. Lover of deep jazz, vintage art galleries, and exploring historical landmarks across Oyo state.",
+      "photos": [
+        {
+          "id": "p_user_4c2b8252-64b6-45ac-956a-7da78dc11744_0",
+          "url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80",
+          "isPrimary": true,
+          "order": 0
+        }
+      ],
+      "interests": [
+        "Design",
+        "Jazz",
+        "Art",
+        "Coffee",
+        "History"
+      ],
+      "isIdentityVerified": true,
+      "verificationStatus": "verified",
+      "onlineStatus": false,
+      "lastActiveAt": "2026-10-11T11:46:42.405Z",
+      "showOnlineStatus": true,
+      "showLocation": true,
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "userId": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "displayName": "Babajide Test",
+      "dateOfBirth": "1996-08-14",
+      "age": 30,
+      "gender": "Man",
+      "datingPreference": "Women",
+      "relationshipIntention": "Serious Relationship",
+      "state": "Lagos",
+      "city": "Victoria Island",
+      "bio": "Entrepreneur looking for a meaningful life partnership.",
+      "photos": [
+        {
+          "id": "p1",
+          "url": "https://example.com/photo1.jpg",
+          "isPrimary": true,
+          "order": 0
+        }
+      ],
+      "interests": [
+        "Tech",
+        "Afrobeats",
+        "Tennis"
+      ],
+      "isIdentityVerified": false,
+      "verificationStatus": "unverified",
+      "onlineStatus": true,
+      "lastActiveAt": "2026-10-11T11:55:58.854Z",
+      "showOnlineStatus": true,
+      "showLocation": true,
+      "createdAt": "2026-10-11T11:55:58.854Z",
+      "updatedAt": "2026-10-11T11:55:58.854Z"
+    }
+  ],
+  "otps": {},
+  "likes": [
+    {
+      "id": "like_1efeb11d-b31f-4e53-8a6a-54351f36daed",
+      "fromUserId": "admin_396689e6-eb1f-41fc-b102-ddc41ed7caf2",
+      "toUserId": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "createdAt": "2026-10-11T11:55:58.855Z"
+    },
+    {
+      "id": "like_5fd5a8c8-c487-444e-bfe2-77e9a7aea49b",
+      "fromUserId": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "toUserId": "admin_396689e6-eb1f-41fc-b102-ddc41ed7caf2",
+      "createdAt": "2026-10-11T11:55:58.855Z"
+    }
+  ],
+  "matches": [
+    {
+      "id": "match_619c2940-2c54-4eb1-87cd-9b76902a214b",
+      "user1Id": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "user2Id": "admin_396689e6-eb1f-41fc-b102-ddc41ed7caf2",
+      "createdAt": "2026-10-11T11:55:58.855Z"
+    }
+  ],
+  "friendRequests": [
+    {
+      "id": "freq_a942ab85-68cb-4761-9d60-8023965774fd",
+      "senderId": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "receiverId": "admin_396689e6-eb1f-41fc-b102-ddc41ed7caf2",
+      "status": "accepted",
+      "createdAt": "2026-10-11T11:55:58.898Z",
+      "updatedAt": "2026-10-11T11:55:58.898Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub_b1b7bf8e-28ae-4797-807d-0860aef7d6fe",
+      "userId": "admin_396689e6-eb1f-41fc-b102-ddc41ed7caf2",
+      "planId": "three_months",
+      "startDate": "2026-10-11T11:55:58.584Z",
+      "endDate": "2027-01-09T11:55:58.584Z",
+      "status": "active",
+      "paymentId": "admin_initial"
+    },
+    {
+      "id": "sub_35f16bf6-1d47-4a7a-abbc-dfc1dcb4ad91",
+      "userId": "user_9a8953c3-2852-47ff-a00c-08e9a62fe2a1",
+      "planId": "monthly",
+      "startDate": "2026-10-11T11:55:58.673Z",
+      "endDate": "2026-11-10T11:55:58.673Z",
+      "status": "active",
+      "paymentId": "seed_user_9a8953c3-2852-47ff-a00c-08e9a62fe2a1"
+    },
+    {
+      "id": "sub_c86e20df-1e05-4507-aec7-677701b3c899",
+      "userId": "user_3d29876f-3d8a-42ab-b07e-0ab1b67f06ca",
+      "planId": "monthly",
+      "startDate": "2026-10-11T11:55:58.673Z",
+      "endDate": "2026-11-10T11:55:58.673Z",
+      "status": "active",
+      "paymentId": "seed_user_3d29876f-3d8a-42ab-b07e-0ab1b67f06ca"
+    },
+    {
+      "id": "sub_a2ff7f2a-6498-43d2-ae78-3812258b294a",
+      "userId": "user_fe96288e-0be8-4014-a45b-43e244b7778a",
+      "planId": "monthly",
+      "startDate": "2026-10-11T11:55:58.673Z",
+      "endDate": "2026-11-10T11:55:58.673Z",
+      "status": "active",
+      "paymentId": "seed_user_fe96288e-0be8-4014-a45b-43e244b7778a"
+    },
+    {
+      "id": "sub_8021e318-72ce-4915-81b5-d1de4f2e629f",
+      "userId": "user_aad1d21b-b4bf-4279-a2c3-44b129680bab",
+      "planId": "monthly",
+      "startDate": "2026-10-11T11:55:58.673Z",
+      "endDate": "2026-11-10T11:55:58.673Z",
+      "status": "active",
+      "paymentId": "seed_user_aad1d21b-b4bf-4279-a2c3-44b129680bab"
+    },
+    {
+      "id": "sub_8ba1b4cc-7f5c-40b0-82fd-ce87efe5b0b5",
+      "userId": "user_4c2b8252-64b6-45ac-956a-7da78dc11744",
+      "planId": "monthly",
+      "startDate": "2026-10-11T11:55:58.673Z",
+      "endDate": "2026-11-10T11:55:58.673Z",
+      "status": "active",
+      "paymentId": "seed_user_4c2b8252-64b6-45ac-956a-7da78dc11744"
+    },
+    {
+      "id": "sub_8bcb8a83-e43a-40e8-8e3c-45b17eb23fc5",
+      "userId": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "planId": "monthly",
+      "startDate": "2026-10-11T11:55:58.856Z",
+      "endDate": "2026-11-10T11:55:58.856Z",
+      "status": "active",
+      "paymentId": "pay_5eb60f21-d967-4865-a443-7e70dc86b02c"
+    }
+  ],
+  "paymentSubmissions": [
+    {
+      "id": "pay_5eb60f21-d967-4865-a443-7e70dc86b02c",
+      "userId": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "userEmail": "test.user.1791719758675@example.com",
+      "userName": "Babajide Test",
+      "planId": "monthly",
+      "amountNGN": 5000,
+      "paymentDate": "2026-10-11",
+      "transactionReference": "OPAY_TXN_1791719758855",
+      "proofScreenshotUrl": "https://example.com/receipt.png",
+      "status": "approved",
+      "createdAt": "2026-10-11T11:55:58.855Z",
+      "reviewedByAdminId": "admin_396689e6-eb1f-41fc-b102-ddc41ed7caf2",
+      "reviewedAt": "2026-10-11T11:55:58.856Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "convo_3cb251aa-bcc6-4fcd-aa86-3cfdc1237776",
+      "participants": [
+        "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+        "admin_396689e6-eb1f-41fc-b102-ddc41ed7caf2"
+      ],
+      "updatedAt": "2026-10-11T11:55:58.898Z",
+      "lastMessage": {
+        "id": "msg_6713d150-35e0-4b86-a922-f96a6bae1d29",
+        "conversationId": "convo_3cb251aa-bcc6-4fcd-aa86-3cfdc1237776",
+        "senderId": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+        "content": "Hello! Wonderful to connect with you on NaijaMatch.",
+        "createdAt": "2026-10-11T11:55:58.898Z"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_6713d150-35e0-4b86-a922-f96a6bae1d29",
+      "conversationId": "convo_3cb251aa-bcc6-4fcd-aa86-3cfdc1237776",
+      "senderId": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "content": "Hello! Wonderful to connect with you on NaijaMatch.",
+      "createdAt": "2026-10-11T11:55:58.898Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_43121c87-2b47-4fb7-bb7f-637401b5eba7",
+      "userId": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "title": "New Like Received",
+      "message": "Someone just liked your profile! Subscribe to see who liked you.",
+      "type": "like",
+      "link": "/likes",
+      "read": false,
+      "createdAt": "2026-10-11T11:55:58.855Z"
+    },
+    {
+      "id": "notif_42f641c0-6760-4fc4-b1e0-bf70d630e9fc",
+      "userId": "admin_396689e6-eb1f-41fc-b102-ddc41ed7caf2",
+      "title": "It's a Match! 🎉",
+      "message": "You and Babajide Test mutually liked each other! Start a conversation now.",
+      "type": "match",
+      "link": "/messages",
+      "read": false,
+      "createdAt": "2026-10-11T11:55:58.855Z"
+    },
+    {
+      "id": "notif_b72f90c5-54a6-4924-99ca-88c956ab1f3a",
+      "userId": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "title": "It's a Match! 🎉",
+      "message": "You and Stephen A. (Admin) mutually liked each other! Start a conversation now.",
+      "type": "match",
+      "link": "/messages",
+      "read": false,
+      "createdAt": "2026-10-11T11:55:58.855Z"
+    },
+    {
+      "id": "notif_d6f0ee21-6851-4e24-97b8-280fb10d63fb",
+      "userId": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "title": "Subscription Activated!",
+      "message": "Your monthly plan has been verified and activated. You now have full access to unlimited messaging and discovery!",
+      "type": "payment_approved",
+      "link": "/subscriptions",
+      "read": false,
+      "createdAt": "2026-10-11T11:55:58.856Z"
+    },
+    {
+      "id": "notif_278e01dc-8890-4677-93b6-3f58f5b67bd8",
+      "userId": "admin_396689e6-eb1f-41fc-b102-ddc41ed7caf2",
+      "title": "Message from Babajide Test",
+      "message": "Hello! Wonderful to connect with you on NaijaMatch.",
+      "type": "message",
+      "link": "/messages?c=convo_3cb251aa-bcc6-4fcd-aa86-3cfdc1237776",
+      "read": false,
+      "createdAt": "2026-10-11T11:55:58.898Z"
+    },
+    {
+      "id": "notif_3fed6899-b21b-43ff-979b-93ab799a1f5f",
+      "userId": "admin_396689e6-eb1f-41fc-b102-ddc41ed7caf2",
+      "title": "New Connection Request",
+      "message": "Babajide Test sent you a connection request.",
+      "type": "friend_request",
+      "link": "/messages",
+      "read": false,
+      "createdAt": "2026-10-11T11:55:58.898Z"
+    },
+    {
+      "id": "notif_ac8b2c42-5764-4585-b1de-1046b0677a06",
+      "userId": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "title": "Connection Accepted! ✨",
+      "message": "Stephen A. (Admin) accepted your connection request.",
+      "type": "friend_request",
+      "link": "/messages",
+      "read": false,
+      "createdAt": "2026-10-11T11:55:58.898Z"
+    }
+  ],
+  "blocks": [],
+  "reports": [],
+  "marketplaceListings": [
+    {
+      "id": "mkt_73c79eb6-7b50-4ffc-a62a-f3d1ccea5f11",
+      "userId": "user_9a8953c3-2852-47ff-a00c-08e9a62fe2a1",
+      "title": "Handcrafted Scented Soy Candles & Rose Petals Date Box",
+      "description": "Romantic evening gift hamper including 2 custom vanilla-oud candles, preserved Ecuadorian rose petals, and artisan Belgian chocolates. Perfect for surprise date nights.",
+      "category": "Gifts",
+      "priceNGN": 18500,
+      "state": "Lagos",
+      "city": "Lekki",
+      "images": [
+        "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=600&q=80"
+      ],
+      "status": "active",
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "id": "mkt_d02632b8-a23e-47d9-bcfa-79dfc18a47f4",
+      "userId": "user_3d29876f-3d8a-42ab-b07e-0ab1b67f06ca",
+      "title": "Private Sunset Rooftop Dinner Reservation & Acoustic Serenade",
+      "description": "Exclusively curated romantic 3-course dinner for two overlooking Abuja city skyline with private acoustic guitarist. Includes bottle of premium sparkling wine.",
+      "category": "Date Ideas",
+      "priceNGN": 45000,
+      "state": "FCT - Abuja",
+      "city": "Maitama",
+      "images": [
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80"
+      ],
+      "status": "active",
+      "createdAt": "2026-10-11T11:55:58.673Z",
+      "updatedAt": "2026-10-11T11:55:58.673Z"
+    },
+    {
+      "id": "mkt_cba51228-537f-4f28-bc41-c889c27b92d5",
+      "userId": "user_f89af622-bbc4-49f8-9220-d88f563fb270",
+      "title": "Romantic Candlelight Hamper",
+      "description": "Artisanal gift box with flowers and chocolate for couples in Lagos.",
+      "category": "Gifts",
+      "priceNGN": 25000,
+      "state": "Lagos",
+      "city": "Victoria Island",
+      "images": [
+        "https://example.com/candle.jpg"
+      ],
+      "status": "active",
+      "createdAt": "2026-10-11T11:55:58.898Z",
+      "updatedAt": "2026-10-11T11:55:58.898Z"
+    }
+  ],
+  "adminAuditLogs": [
+    {
+      "id": "audit_91870d29-3b94-4a3f-8bbe-7b1e1c6108df",
+      "adminId": "admin_396689e6-eb1f-41fc-b102-ddc41ed7caf2",
+      "adminEmail": "stephenaleje61@gmail.com",
+      "action": "PAYMENT_APPROVED",
+      "targetId": "pay_5eb60f21-d967-4865-a443-7e70dc86b02c",
+      "details": "Payment pay_5eb60f21-d967-4865-a443-7e70dc86b02c for ₦5,000 by user test.user.1791719758675@example.com was approved.",
+      "createdAt": "2026-10-11T11:55:58.897Z"
+    }
+  ]
+}

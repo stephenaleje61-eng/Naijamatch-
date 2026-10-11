@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /safety
+Allow: /terms
+Allow: /privacy
+Allow: /guidelines
+Allow: /subscriptions
+Disallow: /admin
+Disallow: /messages
+Disallow: /api/
+Disallow: /payment-proof
+
+Sitemap: /sitemap.xml

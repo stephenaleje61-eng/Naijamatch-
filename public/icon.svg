@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="104" fill="#008751" />
+  <g fill="none" stroke="#FFFFFF" stroke-width="32" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Intertwined Dual Hearts / Unity Symbol -->
+    <path d="M192 144 C136 88 56 120 56 200 C56 288 176 384 256 424 C336 384 456 288 456 200 C456 120 376 88 320 144 L256 208 Z" fill="#008751" />
+    <path d="M256 180 C216 128 144 144 144 216 C144 288 232 360 256 384 C280 360 368 288 368 216 C368 144 296 128 256 180 Z" fill="#FFFFFF" stroke="none" />
+    <circle cx="256" cy="230" r="28" fill="#008751" stroke="none" />
+  </g>
+</svg>
